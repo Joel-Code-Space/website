@@ -1,0 +1,84 @@
+@import url();
+
+* {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #e7e7e7;
+    
+
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 300;
+    border-bottom: 5px solid blueviolet;
+}
+
+.main-nav li {
+    padding: 0 2%;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display:inline-block;
+    padding: .5em;
+    color:rgb(72, 24, 116);
+    text-decoration-line: none;
+    font-size: larger;
+}
+
+.nav a:hover {
+    background-color: rgb(227, 207, 246, .3 );
+}
+
+html {
+    background-color: blueviolet;
+
+    .main-header {
+        background-image: url("images/hero.png");
+        background-size: cover;
+        padding-bottom: 30px;
+    }
+}
+
+.head-name {
+    padding-top: 30px;
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    color:rgb(40, 33, 87);
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 945px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-heading {
+    font-weight:bolder;
+    color: rgb(40, 33, 87) ;
+}
+
+.footer {
+    margin:0;
+    text-align: center;
+    padding-bottom: 7px;
+}
