@@ -48,7 +48,7 @@ html {
     background-color: blueviolet;
 
     .main-header {
-        background-image: url("images/hero.png");
+        background-image: url("images/alt-hero.jpg");
         background-size: cover;
         padding-bottom: 30px;
     }
